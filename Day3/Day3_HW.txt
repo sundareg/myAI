@@ -1,0 +1,54 @@
+Binary classification problem has been discussed (Wear coat or not based on Location and Temperature)
+(This will be a home work)
+
+from sklearn.linear_model import LogisticRegression
+
+# Split data into 'X' features and 'y' target label sets
+X = listc[['city','temp']]
+y = listc['wearcoat']
+from sklearn.linear_model import LogisticRegression
+logmodel = LogisticRegression()
+logmodel.fit(X_train, y_train)
+
+# Import module for fitting
+from sklearn.linear_model import LogisticRegression
+# Create instance (i.e. object) of LogisticRegression
+
+# Fit the model using the training data
+# X_train -> parameter supplies the data features
+# y_train -> parameter supplies the target labels
+logmodel.fit(X_train, y_train)
+
+Linear regression should load data from CSV (Home work)
+
+chennai	22	wear coat
+calicut	20	wear coat
+mumbai	15	wear coat
+
+
+import csv
+
+f = open('coat1.csv','r')
+reader = csv.reader(f)
+next(f)
+listc = []
+for row in reader:
+	try:
+		listc.append([row[0],int(row[1]),int(row[2])])
+	except:
+		pass
+print(listc)
+
+from sklearn.metrics import classification_report
+print(classification_report(y_test,predictions))
+
+
+data = pd.read_csv('.csv',header=0)
+data = data.dropna()
+print(data.shape)
+print(list(data.columns))
+
+data.head()
+
+data['wearcount'].value_counts()
+
