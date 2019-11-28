@@ -1,0 +1,76 @@
+Classical machine learning
+	- Supervised Learning
+		- classification -  (Naive Bayes, Decision Tree, Logistic Regression, K-Nearest Neighbours, Support Vector Machine)
+			– Spam filtering
+			– Language detection
+			– A search of similar documents
+			– Sentiment analysis
+			– Recognition of handwritten characters and numbers
+			– Fraud detection
+		- regressions (Linear regression, Polynomial regression, RIdge regressions)
+			- Stock price forecasts
+			- Demand and sales volume analysis
+			- Medical diagnosis
+			- Any number-time correlations
+			- Preduct traffic jams
+	- Unsupervised Learning
+		- Clustering (K-means_clustering, Mean-Shift, DBSCAN, Fuzzy C- means, Agglomerative)
+			- For market segmentation (types of customers, loyalty)
+			- To merge close points on a map
+			- For image compression
+			- To analyze and label new data
+			- To detect abnormal behavior
+		- Dimension reduction (PCA, LSA, SVD, LDA, t-SNE)
+			- Recommender systems
+			- Beautiful visualizations
+			- Topic modeling and similar document search
+			- Fake image analysis
+			- Risk management
+		- Association or Pattern search ( Apriori,Euclat, FP-growth)
+			- To forecast sales and discounts
+			- To analyze goods bought together
+			- To place the products on the shelves
+			- To analyze web surfing patterns
+Reinforcement Learning ( Q-Learning, SARSA, DQN, A3C, Genetic algorithm)
+	- Self-driving cars
+	- Robot vacuums
+	- Games
+	- Automating trading
+	- Enterprise resource management
+
+Ensemble Methods 
+	- Boosting
+		- Adaboost
+		- CatBoost
+		- XGBoost
+		- Light GBM
+		- Gradient Boosting
+	- Stacking
+	- Bagging (Random Forest)
+	
+	Use cases of Ensemble:
+	- Everything that fits classical algorithm approaches (but works better)
+	- Search systems
+	- Computer vision
+	- Object detection
+
+Neural Networks and Deep Leaning 
+	- CNN - Convolutional Neural Network
+		DCNN
+	- Recurrent Neural  Networks (RNN)
+		- LSM
+		- LSTM
+		- GRU
+	- GAN (Unsuprevised)
+	- Perceptron (MLP)
+	- Autoencoders (Seq2Seq)
+	Use cases of Deep learning:
+	- Replacement of all algorithms above
+	- Object identification on photos and videos
+	- Speech recognition and synthesis
+	- Image processing, style transfer
+	- Machine translation
+
+
+
+

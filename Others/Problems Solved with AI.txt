@@ -1,0 +1,6 @@
+Linear Regression: for a Custom DAta Set using Custom Formula 
+Lin Reg: with CSV loading
+Binary Classification: Prediction of Wearing Coat or not 
+Time Series Prediction for Wikipedia Trending Topic
+Time Series for Whatsapp Application Volume Prdiction
+Sentiment Analysis for Airline Tweets

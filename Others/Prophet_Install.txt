@@ -1,0 +1,173 @@
+(base) C:\WINDOWS\system32>conda install -c anaconda ephem
+Collecting package metadata (current_repodata.json): done
+Solving environment: done
+
+## Package Plan ##
+
+  environment location: C:\Users\sunda\Anaconda3
+
+  added / updated specs:
+    - ephem
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    ca-certificates-2019.8.28  |                0         165 KB  anaconda
+    certifi-2019.9.11          |           py37_0         155 KB  anaconda
+    conda-4.7.12               |           py37_0         3.0 MB  anaconda
+    ephem-3.7.7.0              |   py37he774522_0         735 KB  anaconda
+    openssl-1.1.1d             |       he774522_2         5.7 MB  anaconda
+    ------------------------------------------------------------
+                                           Total:         9.8 MB
+
+The following NEW packages will be INSTALLED:
+
+  ephem              anaconda/win-64::ephem-3.7.7.0-py37he774522_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  ca-certificates                                 pkgs/main --> anaconda
+  certifi                                         pkgs/main --> anaconda
+  conda                                           pkgs/main --> anaconda
+  openssl                                         pkgs/main --> anaconda
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+ca-certificates-2019 | 165 KB    | ############################################################################ | 100%
+openssl-1.1.1d       | 5.7 MB    | ############################################################################ | 100%
+conda-4.7.12         | 3.0 MB    | ############################################################################ | 100%
+certifi-2019.9.11    | 155 KB    | ############################################################################ | 100%
+ephem-3.7.7.0        | 735 KB    | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) C:\WINDOWS\system32>conda install -c conda-forge pystan
+Collecting package metadata (current_repodata.json): done
+Solving environment: /
+Warning: 4 possible package resolutions (only showing differing packages):
+  - anaconda::ca-certificates-2019.8.28-0, anaconda::openssl-1.1.1d-he774522_2
+  - anaconda::ca-certificates-2019.8.28-0, defaults::openssl-1.1.1d-he774522_2
+  - anaconda::openssl-1.1.1d-he774522_2, defaults::ca-certificates-2019.8.28-0
+  - defaults::ca-certificates-2019.8.28-0, defaults::openssl-1.1.1d-he774522done
+
+## Package Plan ##
+
+  environment location: C:\Users\sunda\Anaconda3
+
+  added / updated specs:
+    - pystan
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    arviz-0.5.1                |             py_1         1.2 MB  conda-forge
+    certifi-2019.9.11          |           py37_0         147 KB  conda-forge
+    cftime-1.0.4.2             |   py37hc8d92b1_0         220 KB  conda-forge
+    conda-4.7.12               |           py37_0         3.0 MB  conda-forge
+    hdf4-4.2.13                |       h712560f_2         1.3 MB
+    libnetcdf-4.6.1            |       h411e497_2         494 KB
+    m2w64-toolchain_win-64-2.4.0|                0           4 KB  conda-forge
+    matplotlib-base-3.1.2      |   py37h2981e6d_0         6.5 MB  conda-forge
+    netcdf4-1.4.2              |   py37h812ae01_0         338 KB
+    pystan-2.19.1.1            |   py37h12199cf_0        35.8 MB  conda-forge
+    xarray-0.14.0              |             py_0         438 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:        49.6 MB
+
+The following NEW packages will be INSTALLED:
+
+  arviz              conda-forge/noarch::arviz-0.5.1-py_1
+  cftime             conda-forge/win-64::cftime-1.0.4.2-py37hc8d92b1_0
+  hdf4               pkgs/main/win-64::hdf4-4.2.13-h712560f_2
+  libnetcdf          pkgs/main/win-64::libnetcdf-4.6.1-h411e497_2
+  m2w64-toolchain_w~ conda-forge/win-64::m2w64-toolchain_win-64-2.4.0-0
+  matplotlib-base    conda-forge/win-64::matplotlib-base-3.1.2-py37h2981e6d_0
+  netcdf4            pkgs/main/win-64::netcdf4-1.4.2-py37h812ae01_0
+  xarray             conda-forge/noarch::xarray-0.14.0-py_0
+
+The following packages will be UPDATED:
+
+  pystan             pkgs/main::pystan-2.19.0.0-py37hcce69~ --> conda-forge::pystan-2.19.1.1-py37h12199cf_0
+
+The following packages will be SUPERSEDED by a higher-priority channel:
+
+  certifi                                          anaconda --> conda-forge
+  conda                                            anaconda --> conda-forge
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+netcdf4-1.4.2        | 338 KB    | ############################################################################ | 100%
+xarray-0.14.0        | 438 KB    | ############################################################################ | 100%
+m2w64-toolchain_win- | 4 KB      | ############################################################################ | 100%
+pystan-2.19.1.1      | 35.8 MB   | ############################################################################ | 100%
+arviz-0.5.1          | 1.2 MB    | ############################################################################ | 100%
+cftime-1.0.4.2       | 220 KB    | ############################################################################ | 100%
+conda-4.7.12         | 3.0 MB    | ############################################################################ | 100%
+certifi-2019.9.11    | 147 KB    | ############################################################################ | 100%
+libnetcdf-4.6.1      | 494 KB    | ############################################################################ | 100%
+hdf4-4.2.13          | 1.3 MB    | ############################################################################ | 100%
+matplotlib-base-3.1. | 6.5 MB    | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) C:\WINDOWS\system32>conda install -c conda-forge fbprophet
+Collecting package metadata (current_repodata.json): done
+Solving environment: /
+Warning: 4 possible package resolutions (only showing differing packages):
+  - anaconda::ca-certificates-2019.8.28-0, anaconda::openssl-1.1.1d-he774522_2
+  - anaconda::ca-certificates-2019.8.28-0, defaults::openssl-1.1.1d-he774522_2
+  - anaconda::openssl-1.1.1d-he774522_2, defaults::ca-certificates-2019.8.28-0
+  - defaults::ca-certificates-2019.8.28-0, defaults::openssl-1.1.1d-he774522done
+
+## Package Plan ##
+
+  environment location: C:\Users\sunda\Anaconda3
+
+  added / updated specs:
+    - fbprophet
+
+
+The following packages will be downloaded:
+
+    package                    |            build
+    ---------------------------|-----------------
+    convertdate-2.1.3          |          py_1000          30 KB  conda-forge
+    fbprophet-0.5              |   py37h6538335_0         520 KB  conda-forge
+    holidays-0.9.11            |             py_0          39 KB  conda-forge
+    lunardate-0.2.0            |             py_0          21 KB  conda-forge
+    ------------------------------------------------------------
+                                           Total:         610 KB
+
+The following NEW packages will be INSTALLED:
+
+  convertdate        conda-forge/noarch::convertdate-2.1.3-py_1000
+  fbprophet          conda-forge/win-64::fbprophet-0.5-py37h6538335_0
+  holidays           conda-forge/noarch::holidays-0.9.11-py_0
+  lunardate          conda-forge/noarch::lunardate-0.2.0-py_0
+
+
+Proceed ([y]/n)? y
+
+
+Downloading and Extracting Packages
+fbprophet-0.5        | 520 KB    | ############################################################################ | 100%
+lunardate-0.2.0      | 21 KB     | ############################################################################ | 100%
+convertdate-2.1.3    | 30 KB     | ############################################################################ | 100%
+holidays-0.9.11      | 39 KB     | ############################################################################ | 100%
+Preparing transaction: done
+Verifying transaction: done
+Executing transaction: done
+
+(base) C:\WINDOWS\system32>

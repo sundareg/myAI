@@ -1,0 +1,106 @@
+
+(base) C:\WINDOWS\system32>pip install fbprophet
+Collecting fbprophet
+  Downloading https://files.pythonhosted.org/packages/33/fb/ad98d46773929079657706e6b2b6e366ba6c282bc2397d8f9b0ea8e5614c/fbprophet-0.5.tar.gz (49kB)
+     |████████████████████████████████| 51kB 299kB/s
+Requirement already satisfied: Cython>=0.22 in c:\programdata\anaconda3\lib\site-packages (from fbprophet) (0.28.5)
+Collecting pystan>=2.14 (from fbprophet)
+  Downloading https://files.pythonhosted.org/packages/16/f9/fd70954890d5110a663139d8cb015a9ead713798db06cc2dc784635bb9f0/pystan-2.19.1.1-cp37-cp37m-win_amd64.whl (79.8MB)
+     |████████████████████████████████| 79.8MB 57kB/s
+Requirement already satisfied: numpy>=1.10.0 in c:\programdata\anaconda3\lib\site-packages (from fbprophet) (1.15.1)
+Requirement already satisfied: pandas>=0.23.4 in c:\programdata\anaconda3\lib\site-packages (from fbprophet) (0.23.4)
+Requirement already satisfied: matplotlib>=2.0.0 in c:\programdata\anaconda3\lib\site-packages (from fbprophet) (2.2.3)
+Collecting lunardate>=0.1.5 (from fbprophet)
+  Downloading https://files.pythonhosted.org/packages/4e/7e/377a3cbba646ec0cf79433ef858881d809a3b87eb887b0901cb83c66a758/lunardate-0.2.0-py3-none-any.whl
+Collecting convertdate>=2.1.2 (from fbprophet)
+  Downloading https://files.pythonhosted.org/packages/c9/f8/02a18000b0fbfd714f78aa16359796727a181e80f679682e3f62771a5c23/convertdate-2.2.0-py3-none-any.whl
+Collecting holidays>=0.9.5 (from fbprophet)
+  Downloading https://files.pythonhosted.org/packages/d0/17/a452275a0b3e811a381137ff6a61649086af4c5bf2a25755f518cc64b39e/holidays-0.9.11.tar.gz (81kB)
+     |████████████████████████████████| 81kB 1.7MB/s
+Collecting setuptools-git>=1.2 (from fbprophet)
+  Downloading https://files.pythonhosted.org/packages/05/97/dd99fa9c0d9627a7b3c103a00f1566d8193aca8d473884ed258cca82b06f/setuptools_git-1.2-py2.py3-none-any.whl
+Requirement already satisfied: python-dateutil>=2.5.0 in c:\programdata\anaconda3\lib\site-packages (from pandas>=0.23.4->fbprophet) (2.7.3)
+Requirement already satisfied: pytz>=2011k in c:\programdata\anaconda3\lib\site-packages (from pandas>=0.23.4->fbprophet) (2018.5)
+Requirement already satisfied: cycler>=0.10 in c:\programdata\anaconda3\lib\site-packages (from matplotlib>=2.0.0->fbprophet) (0.10.0)
+Requirement already satisfied: pyparsing!=2.0.4,!=2.1.2,!=2.1.6,>=2.0.1 in c:\programdata\anaconda3\lib\site-packages (from matplotlib>=2.0.0->fbprophet) (2.2.0)
+Requirement already satisfied: six>=1.10 in c:\programdata\anaconda3\lib\site-packages (from matplotlib>=2.0.0->fbprophet) (1.11.0)
+Requirement already satisfied: kiwisolver>=1.0.1 in c:\programdata\anaconda3\lib\site-packages (from matplotlib>=2.0.0->fbprophet) (1.0.1)
+Collecting pymeeus<=1,>=0.3.6 (from convertdate>=2.1.2->fbprophet)
+  Downloading https://files.pythonhosted.org/packages/a3/78/6aef07082e4f4ebc9ce7b86ec0560e1b12f21d90f7a5706dc341b3538c49/PyMeeus-0.3.6.tar.gz (736kB)
+     |████████████████████████████████| 737kB 726kB/s
+Requirement already satisfied: setuptools in c:\programdata\anaconda3\lib\site-packages (from kiwisolver>=1.0.1->matplotlib>=2.0.0->fbprophet) (40.2.0)
+Building wheels for collected packages: fbprophet, holidays, pymeeus
+  Building wheel for fbprophet (setup.py) ... error
+  ERROR: Command errored out with exit status 1:
+   command: 'C:\ProgramData\Anaconda3\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\sunda\\AppData\\Local\\Temp\\pip-install-ucljz8pr\\fbprophet\\setup.py'"'"'; __file__='"'"'C:\\Users\\sunda\\AppData\\Local\\Temp\\pip-install-ucljz8pr\\fbprophet\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' bdist_wheel -d 'C:\Users\sunda\AppData\Local\Temp\pip-wheel-_n684kuq' --python-tag cp37
+       cwd: C:\Users\sunda\AppData\Local\Temp\pip-install-ucljz8pr\fbprophet\
+  Complete output (36 lines):
+  running bdist_wheel
+  running build
+  running build_py
+  creating build
+  creating build\lib
+  creating build\lib\fbprophet
+  creating build\lib\fbprophet\stan_model
+  Traceback (most recent call last):
+    File "<string>", line 1, in <module>
+    File "C:\Users\sunda\AppData\Local\Temp\pip-install-ucljz8pr\fbprophet\setup.py", line 120, in <module>
+      """
+    File "C:\ProgramData\Anaconda3\lib\site-packages\setuptools\__init__.py", line 140, in setup
+      return distutils.core.setup(**attrs)
+    File "C:\ProgramData\Anaconda3\lib\distutils\core.py", line 148, in setup
+      dist.run_commands()
+    File "C:\ProgramData\Anaconda3\lib\distutils\dist.py", line 966, in run_commands
+      self.run_command(cmd)
+    File "C:\ProgramData\Anaconda3\lib\distutils\dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "C:\ProgramData\Anaconda3\lib\site-packages\wheel\bdist_wheel.py", line 202, in run
+      self.run_command('build')
+    File "C:\ProgramData\Anaconda3\lib\distutils\cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "C:\ProgramData\Anaconda3\lib\distutils\dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "C:\ProgramData\Anaconda3\lib\distutils\command\build.py", line 135, in run
+      self.run_command(cmd_name)
+    File "C:\ProgramData\Anaconda3\lib\distutils\cmd.py", line 313, in run_command
+      self.distribution.run_command(command)
+    File "C:\ProgramData\Anaconda3\lib\distutils\dist.py", line 985, in run_command
+      cmd_obj.run()
+    File "C:\Users\sunda\AppData\Local\Temp\pip-install-ucljz8pr\fbprophet\setup.py", line 44, in run
+      build_stan_model(target_dir)
+    File "C:\Users\sunda\AppData\Local\Temp\pip-install-ucljz8pr\fbprophet\setup.py", line 27, in build_stan_model
+      from pystan import StanModel
+  ModuleNotFoundError: No module named 'pystan'
+  ----------------------------------------
+  ERROR: Failed building wheel for fbprophet
+  Running setup.py clean for fbprophet
+  Building wheel for holidays (setup.py) ... done
+  Created wheel for holidays: filename=holidays-0.9.11-cp37-none-any.whl size=43941 sha256=d1f66ab0b76877fbeaa8311f37c64e5dbe2df692595cff94f70f9aeab7244693
+  Stored in directory: C:\Users\sunda\AppData\Local\pip\Cache\wheels\40\a9\2b\94ac5464363d37564a87dc93a9d21a5850aac14a4608197003
+  Building wheel for pymeeus (setup.py) ... done
+  Created wheel for pymeeus: filename=PyMeeus-0.3.6-cp37-none-any.whl size=687697 sha256=b87a28484022a59e29b97febb0420d4490d1fcc28aa20c3014fd39ec95d751f9
+  Stored in directory: C:\Users\sunda\AppData\Local\pip\Cache\wheels\d6\a7\fd\a3cc8df9eb57b13a7e8935c406627e3d7f41cd511010b02e9c
+Successfully built holidays pymeeus
+Failed to build fbprophet
+Installing collected packages: pystan, lunardate, pymeeus, convertdate, holidays, setuptools-git, fbprophet
+  Running setup.py install for fbprophet ... error
+    ERROR: Command errored out with exit status 1:
+     command: 'C:\ProgramData\Anaconda3\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\sunda\\AppData\\Local\\Temp\\pip-install-ucljz8pr\\fbprophet\\setup.py'"'"'; __file__='"'"'C:\\Users\\sunda\\AppData\\Local\\Temp\\pip-install-ucljz8pr\\fbprophet\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\sunda\AppData\Local\Temp\pip-record-6hyulkb6\install-record.txt' --single-version-externally-managed --compile
+         cwd: C:\Users\sunda\AppData\Local\Temp\pip-install-ucljz8pr\fbprophet\
+    Complete output (10 lines):
+    running install
+    running build
+    running build_py
+    creating build
+    creating build\lib
+    creating build\lib\fbprophet
+    creating build\lib\fbprophet\stan_model
+    INFO:pystan:COMPILING THE C++ CODE FOR MODEL anon_model_db8febf10f23d7fa27a62fbcfd7f17b2 NOW.
+    WARNING:pystan:MSVC compiler is not supported
+    error: Microsoft Visual C++ 14.0 is required. Get it with "Microsoft Visual C++ Build Tools": https://visualstudio.microsoft.com/downloads/
+    ----------------------------------------
+ERROR: Command errored out with exit status 1: 'C:\ProgramData\Anaconda3\python.exe' -u -c 'import sys, setuptools, tokenize; sys.argv[0] = '"'"'C:\\Users\\sunda\\AppData\\Local\\Temp\\pip-install-ucljz8pr\\fbprophet\\setup.py'"'"'; __file__='"'"'C:\\Users\\sunda\\AppData\\Local\\Temp\\pip-install-ucljz8pr\\fbprophet\\setup.py'"'"';f=getattr(tokenize, '"'"'open'"'"', open)(__file__);code=f.read().replace('"'"'\r\n'"'"', '"'"'\n'"'"');f.close();exec(compile(code, __file__, '"'"'exec'"'"'))' install --record 'C:\Users\sunda\AppData\Local\Temp\pip-record-6hyulkb6\install-record.txt' --single-version-externally-managed --compile Check the logs for full command output.
+WARNING: You are using pip version 19.2.3, however version 19.3.1 is available.
+You should consider upgrading via the 'python -m pip install --upgrade pip' command.
+
+(base) C:\WINDOWS\system32>
