@@ -1,0 +1,28 @@
+import csv
+with open("mee1_updated1.csv", "r") as data, open("mee1_updated.csv", "w") as output:
+    csv_out = csv.writer(output)
+    for line in data.readlines():
+        fields = line.split()
+        if len(fields) > 0:
+            csv_out.writerow(fields)
+
+
+with open('mee.txt', 'r') as f:
+    lines = f.readlines()
+# remove spaces
+lines = [line.replace(' ', '') for line in lines]
+# finally, write lines in the file
+with open('mee1.txt', 'w') as f:
+    f.writelines(lines)
+
+infile = open('mee4.txt','r').readlines()
+with open('mee5.txt','w') as outfile:
+    for index,line in enumerate(infile):
+        if index == 0:
+            line = 'new:' + line
+            outfile.write(line)
+        elif(index % 6 == 0):
+            line = 'new:' + line
+            outfile.write(line)
+        elif(index % 6 != 0):
+            outfile.write(line)

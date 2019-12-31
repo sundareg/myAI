@@ -1,0 +1,130 @@
+how it works, 
+
+what sort of datasets you can apply it to
+
+strengths/advantages 
+
+weaknesses/drawbacks
+
+properties of the algorithm
+
+hyper parameter , model parameters.
+
+use cases
+
+
+
+Bayesian Classifier
+-------------------
+to bouilt classification system
+
+A trained classifier -> list of features along with their associated probabilities. 
+there is no need to store the original data after it has been used for training.
+
+example: 
+Features							Classification
+
+Pythons are constrictors that feed on birds and mammals	- 	Snake
+
+Python was originally developed as a scripting language	-	Language
+
+A 49-ft.-long python was found in Indonesia		-	Snake
+
+Python has a dynamic type system			-	Language
+
+Python with vivid scales				-	Snake
+
+Open source project					-	Language
+
+
+Probabilities of words for a given category
+
+Feature		Language	Snake
+
+dynamic		0.6		0.1
+
+constrictor	0.0		0.6
+
+long		0.1		0.2
+
+source		0.3		0.1
+
+
+Note: you need to train plenty of examples for each category.
+
+Advanctaages: 
+speed at which they can be trained and queried with large datasets is high
+Incremental training is possible.
+Train with one item at a time, while other methods like decision trees and support-vector machines need the whole dataset at once.
+can understand - interpreting what the classifier has actually learned
+
+Decision trees 
+--------------
+Decision trees are notable for being extremely easy to understand and interpret
+
+If then rules --> This process is repeated until an endpoint is reached, which is the predicted category.
+
+
+
+Decision trees also work with numerical data
+Can mix categorical and numerical data 
+
+- does not support incremental training
+
+- training have to start from scratch each time
+
+number of possible nodes is very large (each feature is present or absent), 
+the trees can become extremely large and complex and would be slow to make classifications.
+
+spedd of decision tree is slower than Bayesian Classifier
+
+
+neural networks
+---------------
+can handle complex nonlinear functions
+can discover dependencies between different inputs. 
+
+don’t require a lot of space to store the trained models, since they are just a list of numbers representing the synapse weights. 
+
+There is no need to keep the original data following training.
+
+workd well with 
+- continuous stream of training data
+- Un-structured data
+
+- black box method
+- lot of experimentation required
+
+
+Support-Vector Machines
+- Good classification algo.
+- workd well with numberical inputs
+- Faster
+- There’s no need to go through the training data to classify new points once the line has been found
+
+- SVMs are a black box technique
+
+
+k-Nearest Neighbors
+-------------------
+
+-  numerical prediction 
+
+- predicting prices (e.g)
+
+-  easy to interpret.
+
+- adding new data does not require any computation at all; the data is simply added to the set.
+
+drawback:
+- all the training data to be present in order to make predictions
+
+- not just a space issue but also a time issue—every item for which you’re trying to make a prediction 
+has to be compared with every other item to determine which are the closest. 
+
+
+Hierarchical Clustering
+----------------------
+
+K-Means Clustering
+-------------------

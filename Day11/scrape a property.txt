@@ -1,0 +1,51 @@
+From: Saravanan Kumarashanmugam <skumarashanmugam@etisalat.ae>
+Sent: Tuesday, December 17, 2019 08:20
+To: SUNDARESAN GOPALAKRISHNAN <sundaresanmg@etisalat.ae>; Jayakumar William David <jadavid@etisalat.ae>; Md. Chowdhury <achowdhury@etisalat.ae>; Fatima Mohamed Hussain Abdalla Alhammadi <fatalhammadi@etisalat.ae>; Abdulaziz Ahmed Sultan Albasri Alnuaimi <abdualnuaimi@etisalat.ae>; Bayan Tawfiq <babusaris@etisalat.ae>; Abdelqadir Almushtaghil <abdalmushtaghil@etisalat.ae>; Khalil Ayman Badwan <kbadwan@etisalat.ae>; MOHAMMED RIYAS <moriyas@etisalat.ae>; ALI MOHAMDI <amohamdi@etisalat.ae>
+Cc: Hend Abdulla Ali Rustom Bu Abdulla <hbuabdulla@etisalat.ae>
+Subject: RE: School4all
+
+ 
+
+Dear all,
+
+ 
+
+Today’s Use case:
+
+- Please scrape a property (real estate) website with the following variables.
+
+
+Example record:
+Property type: Apartment (Only apartment type you can consider)
+Property size: e.g 3,169 sqft / 294 sqm
+Bedrooms: 3
+Bathrooms: 5
+furnished: Yes or no
+Rent: Price (This is Y)
+Balcony: Yes/no
+
+Objective: Find a rent of the apartment for a given input X (size, etc)
+
+Use case: User want to know the trend (predict) of the rent (Response Y) at particular location with specific needs (Input X).
+
+Today’s work:
+- Choose right algorithm
+- Implement using Python/Scikit Learn
+- Use Requests, and other scraping libraries we discussed.
+- Keep 20 or 30 % records for Testing
+- Please find the error (which must be low to have quality model)
+- Create a one page report on your findings
+
+ 
+
+Note: We have already solved similar problem.
+
+ 
+
+As I have 3 or 4 meetings today, Please continue the use case implementation. Classes will continue tomorrow.
+
+ 
+
+Thank you
+
+Saran

@@ -1,0 +1,89 @@
+Below topics has to completed. . by next week.
+·   Scrape web (samples)
+·   download txt files  (or any files)
+·   Extract web and construct structured web data (save as csv file)
+·   Extract table data (and load in Dataframe)
+·   Web automation using Selanium - (automate any of your web task)
+·   Scrape 100 web pages and built search engine.
+·   Search using lucene
+·   Search using ES
+
+
+
+Day 9 Notes:
+/html/body/div[2]/div[2]/div/div
+Web Mining: Extracting data from Web and creating value out of this data.
+
+UC1:
+https://www.alexa.com/topsites/countries/AE
+Download the webpage
+extract and Convert to CSV with all traffic information
+
+//*[@id="alx-content"]/div/section/div[1]/section[2]/span/span/div/div/div[2]
+/html/body/div/div/section/div/section/div[1]/section[2]/span/span/div/div/div[2]
+
+Insert First Line with "SiteRank" - done
+Remove line 3, 5, 7, 9 - done
+Add semicolon at the end of line each line - done
+Join every six lines
+Create CSV with ; as key 
+
+
+UC2:
+Download the webpage
+https://gulfnews.com/search?query=etisalat
+Crawl all the news and store
+any new news about Etisalat comes, then Alert
+//*[@id="articles-results"]/div[2]/div[1]/div/div/div[2]/div/h2/a
+'//*[@id="contentbox"]/div/div/a'
+//*[@id="articles-results"]/div[2]/div[1]/div/div/div[2]/div/h2/a
+//*[@id="articles-results"]/div[2]/div[1]
+
+<a target="" href="/gulfnews/uae/why-mobile-users-registered-with-etisalat-saw-a-new-name-1.1574574081854"><span class="ais-Highlight"><span class="ais-Highlight-nonHighlighted">Why mobile users registered with </span><mark class="ais-Highlight-highlighted">Etisalat</mark><span class="ais-Highlight-nonHighlighted"> saw a new name</span></span></a>
+
+<a href="data/nyct/turnstile/turnstile_191207.txt">Saturday, December 07, 2019</a>
+
+UC3:
+Selanium web driver (https://selenium.dev/) IDE
+Automate daily task
+
+UC4:
+Using Lucene
+Index the http://web.mta.info/developers/turnstile.html
+Create index and search
+
+UC5:
+Using Elastic Search. same as UC4
+
+UC6:
+Take a Website, crawl and find all linked websites. download all of them
+
+UC7:
+RasaNLU
+https://rasa.com/solutions/open-source-nlu-nlp/
+https://github.com/RasaHQ/rasa
+ERROR: fancyimpute 0.5.4 has requirement scikit-learn>=0.21.2, but you'll have scikit-learn 0.20.4 which is incompatible
+
+Run this Demo
+https://github.com/RasaHQ/rasa-demo
+
+UC8:
+Read about Principal Component Analysis
+
+UC9:
+Difference between PCA and Feature Selection
+
+UC10:
+Auto ML:
+https://docs.microsoft.com/en-us/azure/machine-learning/service/concept-automated-ml
+
+IMPORTANT link for USE CASES:
+https://gallery.azure.ai/
+https://gallery.azure.ai/browse?s=telecom
+
+For GPU Personal Laptop:
+https://lambdalabs.com/deep-learning/laptops/tensorbook
+
+For Open Knowledge base
+http://linkeddata.org/
+
